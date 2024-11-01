@@ -1,0 +1,42 @@
+.umjp_uninstallForm{
+    width: 30%;
+}
+
+.umjp_uninstallMaster{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.umjp_uninstallText{
+    font-size: 19px;
+}
+
+form input[type=checkbox]{
+    margin: 4px 3px 0px 0;
+}
+
+#umjp_uninstallButton{
+    margin-top: 20px;
+    width: 210px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #b50b0b;
+    font-size: 20px;
+    color: #e0e0e0;
+}
+
+#umjp_uninstallButton:hover {
+    background-color: #7d0404;
+}
+
+.umjp_buttonWrap{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+

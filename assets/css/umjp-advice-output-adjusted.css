@@ -1,0 +1,14 @@
+/* 
+This file is for adjusting the CSS in case of very long duration in interval training.
+These long durations can mess up the UI and to adjust it the font-size needs to be downscaled.
+  */
+
+.umjp_intervalBars{
+    font-size: 10px;
+}
+
+.umjp_legendText{
+    margin-top: 6px;
+    font-size: 10px;
+}
+

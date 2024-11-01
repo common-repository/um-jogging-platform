@@ -1,0 +1,116 @@
+/* Non interval */
+
+#umjp_scheduleText{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.umjp_adviceContainer{
+    display: flex;
+}
+
+.umjp_adviceChild{
+    flex: 1 0 25%; 
+    margin-left: 15px;
+}
+
+
+.umjp_adviceContainer:nth-child(even){
+    background-color: rgb(177, 177, 177);
+}
+
+.umjp_adviceContainer:nth-child(odd){
+    background-color: rgb(236, 236, 236);
+}
+
+
+.umjp-heartIcon{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.umjp_MasterNonInterval {
+    border: 1px solid black;
+    margin-left: 1px;
+}
+
+@media(max-width : 600px ) {
+    .umjp_adviceChild {
+        flex: 1 0 22%;
+        font-size: 12px;
+        margin-left: 0px; 
+    }
+
+    #umjp_trainingTitle{
+        flex: 1 0 34%; 
+    }
+}
+
+
+/* Interval */
+
+.umjp_adviceIntervalContainer{
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.umjp_intervalInfo{
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+    border-bottom: 1px solid black;
+}
+
+.umjp_intervalContent{
+    display:flex; 
+    text-align: center;  
+}
+
+.umjp_intervalBars{
+    background-color: #8a8888;
+    color: #101010;
+    align-self: flex-end;
+    font-size: 13px;
+    position: relative;
+}
+
+.umjp_intervalText{
+    color: rgb(196, 196, 196);
+    flex: 0 0 20%;
+    margin-left: 25px;
+}
+
+#umjp_IntervalContrast{
+    background-color: rgb(97, 97, 97);
+}
+
+.umjp_barContent{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3px;
+}
+
+.umjp_legendaInterval{
+    height: 70px;
+    width: 40px;
+    align-self: flex-end;;
+    background-color:#313131;
+}
+
+.umjp_legendText{
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+    margin-left: 1px;
+    margin-right: 1px;
+    position: relative;
+    bottom: -9px;
+    height: 84px;
+}
+
+
+.umjp-fillDiv{
+    height: 20px;
+}
+

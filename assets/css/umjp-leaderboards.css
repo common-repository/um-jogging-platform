@@ -1,0 +1,83 @@
+.umjp-LPcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 17px;
+}
+
+.umjp-LPradiowrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.umjp-LPtoptext{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.umjp-LPcontent{
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+.umjp-LPtable{
+    width: 100%;
+}
+
+.umjp-LPtable tr td {
+    padding: 8px;
+}
+
+.umjp-LPtable tr th {
+    padding: 8px;
+}
+
+.umjp-LPselection .umjp-LPradio{
+    margin-right: 8px;
+}
+
+#umjp-LPTT{
+    margin-bottom: 20px;
+}
+
+
+.umjp-LPradiowrap{
+    width: 150px;
+    display: inline-flex;
+}
+
+.umjp-infoLeader{
+    padding-left: 11px;
+}
+
+.umjp-LPtable tr:nth-child(odd) {
+    background: #b3b3b3;
+}
+
+
+.umjp-td {
+    width: 50%;
+}
+
+label {
+    display: inline-block !important;
+}
+
+
+.umjp-centerRadio{
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+    .umjp-LPcontent {
+        width: 95%;
+    }
+
+
+}
+
+th, td {
+    text-align: center !important;
+}

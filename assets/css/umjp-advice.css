@@ -1,0 +1,259 @@
+.umjp-Advice-container{
+    display: flex;
+    justify-content: center;
+}
+
+.umjp_Advice_form{
+    width: 100%;
+}
+
+label{
+    color: rgb(24, 24, 24) !important;
+    font-size: 15px !important;
+}
+
+.umjp-goalTitle{
+    text-align: center;
+    font-size: 1.2em;
+    color:#dedede;
+    background-color: rgb(41, 41, 41);
+}
+
+.umjp_preference_header{
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: #b1b1b1;
+    color: rgb(31, 31, 31);
+}
+
+.umjp_hide {
+    display: none;
+  }
+
+.umjp_selectGoal{
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+    height: 25px;
+    margin: 0px;
+    width: 33.3333333333333333333333333%;
+    background-color: #e0e0e0;
+    transition: background-color 1s;
+    color: rgb(31, 31, 31);
+    cursor: pointer;
+}
+
+.umjp-preferences-content{
+    z-index: 20;
+    width: 100%;
+    height: 451px;
+    background-color: #e0e0e0;
+    transition: .3s ease-out;
+}
+
+
+input[type="radio"].umjp_hide:checked + label {
+    background-color: #8a8a8a;
+  }
+
+.umjp_chooseGoals{
+    display: flex;
+    width: 100%;
+}
+
+.hideClass{
+    height: 0;
+    overflow: hidden;
+}
+
+#advice_button{
+    width: 100%;
+    box-sizing: border-box;
+    height: 75px;
+    background-color: #b1b1b1;
+    color: rgb(31, 31, 31);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#advice_button:hover{
+    background-color: #8a8a8a;
+}
+
+.umjp_selectAmount{
+    height: 20px;
+}
+
+.umjp-preferences:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.umjp_interval{
+    width: 50%;
+}
+
+.umjp_training_dur{
+    width: 100%;
+    height: 40px;
+}
+
+
+.umjp_sliderContainer{
+    width: 100%;
+    line-height: 66px;
+}
+
+.umjp_rangeInput{
+    width: 56% !important;
+    padding: 0px;
+    vertical-align: 6px !important;
+    display: inline-block;
+}
+
+.umjp_postfix{
+    margin-left: 5px;
+    color: rgb(31, 31, 31);
+    opacity: 0.5;
+}
+
+.umjp_selectedNr{
+    margin-left: 25px;
+    font-size: 1.3em;
+    color: rgb(31, 31, 31);
+}
+
+
+.umjp-fill{
+    height: 350px;
+}
+
+
+.um-profile-body {
+    max-width: none !important;
+}
+
+
+/* Graphics */
+/* Arrow */
+#arrow {
+    display: inline-block;
+    border-right:4px solid #dedede;
+    border-bottom:4px solid #dedede;
+    width:11px;
+    height:11px;
+    transform: rotate(-45deg);
+    margin-right: 10px;
+}
+
+.umjp_timeLabel{
+    display: inline-block;
+    width: 108px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.umjp_Label {
+    vertical-align: 4px;
+    color: rgb(31, 31, 31);
+    display: inline-block;
+}
+
+#umjp_TimePostFix{
+    vertical-align: 3px;
+}
+
+@media(max-width : 500px) {
+    .umjp_rangeInput{
+        width: 41% !important;
+        vertical-align: 6px;
+    }
+
+    .umjp_timeLabel{
+        margin-left: 5px;
+        display: inline-block;
+        width: 80px;
+        height: 60px;
+    }
+
+    .umjp_selectedNr{
+        margin-left: 5px;
+    }
+}
+
+
+/* Slider */
+
+input[type=range]{
+    display: inline;
+    border: none;
+    -webkit-appearance: none;
+    padding: 0 ;
+    background: #e0e0e0;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 5px;
+    background: #ccc;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: rgb(97, 97, 97);
+    margin-top: -4px;
+}
+
+
+/* firefox slider */
+
+input[type=range]::-moz-range-track {
+    height: 5px;
+    background: #ccc;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: rgb(97, 97, 97);
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring{
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+/* Edge */
+
+input[type=range]::-ms-track{
+    background-color:  #ccc;
+}
+
+
+
+
+
+
+  

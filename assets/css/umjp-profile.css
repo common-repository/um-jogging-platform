@@ -1,0 +1,291 @@
+
+/* General */
+
+  .umjp_profileLabel {
+    width: 100%;
+    margin: 0;
+  }
+
+  .umjp-block{
+    background: linear-gradient(rgb(173, 173, 173), rgb(114, 114, 114));
+    color: rgb(255, 255, 255);
+  }
+
+  .umjp-block:hover{
+    background: rgb(99, 99, 99);    
+  }
+  
+  .umjp-block .umjp-accordion-input[type='radio']:checked ~ .umjp-info1{
+    height: 314px;
+  }
+
+
+  .umjp-block .umjp-accordion-input[type='radio']:checked ~ .umjp-info2{
+    height: 682px;
+  }
+
+  .umjp-block .umjp-accordion-input[type='radio']:checked ~ .umjp-info3{
+    height: 250px;
+  }
+
+
+  .umjp-info{
+    background: #fff;
+    color: #222;
+    width: 100%;
+    height: 0;
+    line-height: 2;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: .3s ease-out;
+    border: 1px solid rgb(196, 196, 196);
+  } 
+
+  .umjp-accordion-input[type='radio']{
+    width: 100%;
+    display: none;
+  }
+  
+  label{
+    width: 450px;
+    max-width: 100%;
+    cursor: pointer;
+  }
+  
+  .umjp-accordion-span{
+    font-family: 'Arial';
+    font-weight: bold;
+    display: block;
+    padding: 10px 12px 12px 15px;
+    margin: 0;
+    cursor: pointer;
+    color: #f7f7f7;
+  }
+  
+  ::selection{
+    background: #222;
+    color: #fff;
+  }
+
+  .umjp-fill{
+    height: 300px;
+  }
+
+
+
+
+
+/* First Tab */
+
+.umjp-profileTitle{
+  width: 35%;
+  font-weight: bold;
+}
+  
+.umjp_achievementTable{
+  width: 100%;
+}
+
+.umjp-profileflexbox{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  border-top: 1px solid rgb(196, 196, 196);
+  background-color: rgb(233, 233, 233);
+}
+
+.umjp-middleProfile{
+  background-color: rgb(233, 233, 233);
+  border-bottom: 1px solid rgb(196, 196, 196) !important;
+  border-top: 1px solid rgb(196, 196, 196) !important;
+}
+
+.umjp-tableHeader{
+  height: 43px !important;
+}
+
+.umjp-profileflexContent{
+  display: flex;
+  justify-content: center;
+}
+
+.umjp-flexContent{
+  width: 20%;
+}
+
+.umjp-flexnumbers{
+  width: 15%;
+}
+
+
+.umjp-accordion-input[type='radio']:checked ~ label .umjp-accordion-span{
+  background: linear-gradient(rgb(173, 173, 173), rgb(114, 114, 114));
+}
+
+
+.umjp-tableFill{
+  height: 30px;
+  background: linear-gradient(rgb(173, 173, 173), rgb(114, 114, 114));
+}
+
+.umjp-Pfill{
+width:8%;
+}
+
+@media(min-width: 800px) {
+  .umjp-flexContent{
+    width: 15%;
+  }
+
+  .umjp-profileTitle{
+    width: 30%;
+  }
+    
+}
+
+
+/* Second Tab */
+
+.umjp-badgesContent{
+  display: flex;
+}
+
+.umjpFillTable{
+  display: inline-block;
+  width: 31%;
+  height: 10px;
+}
+
+.umjp-titleBadge{
+  display: inline-block;
+  padding-top: 13px;
+  font-size: 24px;
+}
+
+.umjp-tablefirst{
+  width: 40%;
+}
+
+.umjp-centerContent{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.umjp-CenterAlign{
+  text-align: center !important;
+}
+
+.umjp-tableContent{
+  width: 20%;
+  text-align: center !important;
+  padding: 6.563px !important;
+}
+
+.umjp-badgeFA{
+  margin-bottom: 9px;
+}
+
+
+.umjp-chesspiece{
+  margin-bottom: 14px;
+}
+
+@media(max-width: 800px) {
+  .umjpFillTable{
+    display:none;
+  }
+
+}
+
+
+.umjp_ul{
+  list-style: none !important;
+  margin: 0;
+  padding-left: 0 !important;
+}
+
+
+.umjp-info3{
+  line-height: 36px !important;
+}
+
+@media(max-width: 500px) {
+  .umjp-info3 {
+    line-height: 22px;
+  }
+}
+
+.umjp_infoAdjust{
+  font-size: 13px;
+}
+
+div ul .umjp_li:nth-child(even) {
+  background-color: #cacaca;
+}
+
+
+/* overwriting style of library/theme: */
+.badge{
+  z-index: 5 !important;
+  background-color: white;;
+}
+
+table{
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.umjp_infoAdjust{
+  margin-left: 4px;
+}
+
+tr{
+  height: 43px !important;
+}
+
+li {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+td, th {
+  padding: 6.6px !important;
+  text-align: left !important;
+}
+
+td{
+ line-height: 30px !important;
+}
+
+th{
+  font-weight: bold;
+  vertical-align: middle !important;
+}
+
+.umjp-leaderBoardLink{
+  color: blue !important;
+}
+
+.umjp-leaderBoardLink:hover{
+  color: rgb(0, 0, 87) !important;
+}
+
+.umjp_li{
+ margin-left: 0 !important;
+ padding-left: 0 !important;
+}
+
+.um-742.um .um-profile-body {
+  max-width: none !important;
+}
+
+.um-profile .um-profile-body {
+  max-width: none !important;
+}
+
+.umjp-topRow{
+  background-color: white !important;
+}

@@ -1,0 +1,98 @@
+#umjp-input-nr{
+    padding-bottom: 13px !important;
+    padding-top: 13px !important;
+    background-color: white !important;
+    border: 2px solid #ddd !important;
+    height:41.75px !important; 
+}
+#umjp-input-nr:focus{
+    border: 2px solid #ddd !important;
+    border-color: rgb(173, 171, 171) !important; 
+}
+
+#umjp-gender-label{
+    min-height: 10px;
+    color: #555555;
+    padding-bottom: 5px;
+}
+
+.umjp-master-form div div input {
+    box-sizing: border-box !important;
+    width: 50% !important;
+    background-color: white !important;
+    border: 2px solid #ddd !important;
+    height: 41.75px !important;
+    min-height: 41.75px !important;
+    max-height: 41.75px !important;
+}
+
+#umjp-age-ob div input{
+    box-sizing: border-box !important;
+    background-color: white !important;
+    border-width: 2px !important;
+    height: 40px !important;
+}
+
+#umjp-age-ob div input:focus{
+    border-color: rgb(173, 171, 171) !important;
+}
+
+.umjp-master-form div div input:focus {
+    border-color: rgb(173, 171, 171) !important;  
+}
+
+.umjp-form-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.umjp-form-holder{
+    width: 100%;
+    padding-left: 155px;
+
+}
+
+#umjp-input-account{
+    width: 100%;
+    border-color: rgb(206, 206, 206) !important;
+}
+
+div div #umjp-input-account:focus{
+    border-color: rgb(182, 182, 182) !important;  
+}
+
+
+.umjp-radio-flexbox{
+    display: flex;
+}
+
+.umjp-gender-radio{
+    margin-right: 10px;
+}
+
+.umjp-gender-button{
+    margin-top: 4px;
+}
+
+div div div .umjp-gender-button{
+    width: 15px !important;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+div .umjp-gender-radio{
+    margin-left: 5px;
+}
+
+
+.umjp-gender-box{
+    width: 22% !important;
+}
+
+
+@media screen and (max-width: 700px)  {
+    .umjp-form-holder {
+        padding-left: 40px;
+    }
+}

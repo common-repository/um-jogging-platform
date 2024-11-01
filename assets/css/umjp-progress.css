@@ -1,0 +1,110 @@
+
+.umjp-progress-unit1{
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#umjp-progress-number{
+    height: 41.75px !important;
+    width : 170px !important;
+    margin-bottom: 5px !important;
+    border-color: #cecccc  !important;
+    border-width: 1px !important;
+    padding: 0 0 0 0 !important;
+}
+
+#umjp-progress-number:focus{
+    border-color: rgb(90, 89, 89) !important;    
+}
+
+#umjp-secondinput-id{
+    margin-bottom: 5px !important;
+}
+
+.umjp-progress-button{
+    background-color: rgb(92, 92, 92);
+    border-radius: 10px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+    text-transform: initial;
+    margin-top: 22px;
+    width: 132px;
+    height: 40px;
+    color: rgb(213, 213, 213);
+    margin-left: 24%;
+}
+
+.umjp-progress-button:hover {
+    background-color: #242424
+}
+
+div .umjp-progress-input{
+    background-color: white !important;
+    height: 41.75px !important;
+    width : 168px !important;
+    padding: 0 0 0 0 !important;
+}
+
+.umjp-progress-input:focus{
+    border-color: rgb(90, 90, 89) !important;
+}
+
+.umjp-button-container{
+    width: 350px;
+    justify-content: flex-end;   
+}
+
+.umjp-info-text{
+    width: 425px;  
+}
+
+.umjp_toggleParent{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.umjp-progress-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.um-faicon-info-circle{
+    font-size: 24px;
+    vertical-align: -8%;
+}
+
+
+.umjp_progressTable{
+    border: 1px solid #d4d4d4;
+    color: #515050;
+}
+
+.umjp_toggleStats {
+    display: inline-block;
+}
+
+
+.umjp_delete_text{
+    text-align: center;
+    color: rgb(165, 0, 0);
+    padding: 11px;
+    font-size: 20px;
+}
+
+.umjp-getData-title{
+    text-align: center;
+    color: #515050;
+    padding: 11px;
+    font-size: 20px;
+}
+
+.umjp-deleteData:hover{
+    color: rgb(165, 0, 0);
+    cursor: pointer;
+}
+
+
